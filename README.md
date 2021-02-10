@@ -1,3 +1,5 @@
 # mushrooms-web for safe dapp
-`yarn`
-`yarn start`
+```
+yarn
+yarn start
+```
