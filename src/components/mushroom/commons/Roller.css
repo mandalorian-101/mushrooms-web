@@ -1,0 +1,33 @@
+.roller {}
+
+.roller.show {
+    position: relative;
+    animation: show 0.3s !important;
+}
+
+.roller.hide {
+    position: relative;
+    animation: hide 0.35s;
+}
+
+@keyframes show {
+    from {
+        top: 10px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes hide {
+    from {
+        top: 0;
+        opacity: 1;
+    }
+    to {
+        top: -10px;
+        opacity: 0;
+    }
+}

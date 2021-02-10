@@ -1,0 +1,72 @@
+.bg-cloud-left {
+    width: 291px;
+    display: block;
+    height: 222px;
+    /* box-shadow: 4.4px 6.7px 9.2px 0.8px rgba(4, 0, 0, 0.25); */
+    /* background-image: linear-gradient(to top, #e80000, #ff0000, #db0000, #c10000); */
+    background-image: url("/mushrooms/top left.png");
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    top: 250px;
+}
+
+.bg-circle-left-bottom {
+    width: 202px;
+    display: block;
+    height: 202px;
+    background-image: url("/mushrooms/bottom left cycle.png");
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.bg-cloud-right-bottom {
+    width: 312px;
+    display: block;
+    height: 213px;
+    background-image: url("/mushrooms/bottom cloud.png");
+    background-size: cover;
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+}
+
+.bg-cloud-right-top {
+    width: 182px;
+    display: block;
+    height: 125px;
+    background-image: url("/mushrooms/bottom cloud.png");
+    background-size: cover;
+    position: absolute;
+    right: 0px;
+    top: 112px;
+}
+
+.bg-circle-right-top {
+    width: 38px;
+    display: block;
+    height: 92px;
+    background-image: url("/mushrooms/middleground right.png");
+    background-size: cover;
+    position: absolute;
+    right: 0px;
+    top: 352px;
+}
+
+.bg {
+    /* left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; */
+    position: relative;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(238, 238, 238));
+    overflow-y: scroll;
+    /* min-height: 1200px; */
+    /* padding-bottom: 200px; */
+}
+
+.main{
+    font-family: SemplicitaPro;
+}

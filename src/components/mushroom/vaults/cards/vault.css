@@ -1,0 +1,60 @@
+.open-icon {
+    position: absolute !important;
+    top: 0px;
+    right: 0px;
+    transform: rotate(0deg);
+    transition: all 150ms !important;
+}
+
+.open-icon.open {
+    transform: rotate(180deg);
+}
+
+.card-coin {
+    position: relative;
+    padding-left: 40px;
+}
+
+.card-coin img {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.coin-value-input{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ff0000;
+    font-size: 20px;
+    padding: 10px;
+    color: #ff0000;
+}
+
+
+
+.card-btn{
+    width: 50%;
+}
+
+
+.card-btn.enable{
+    border-radius: 3px !important;
+    background-color: white !important;
+    color: #ff0000 !important;
+    font-family: Bungee !important;
+}
+
+.btn-container{
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    margin: auto;
+}
+
+.flash-icon{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 20px;
+}

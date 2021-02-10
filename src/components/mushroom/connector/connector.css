@@ -1,0 +1,110 @@
+.mushroom-connector {
+    /* padding: 20px; */
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    background-color: white;
+    height: 45px;
+    width: 200px;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+
+.mushroom-connector.connected {
+    /* width: 200px; */
+    background-color: red;
+    color: white;
+    display: block;
+    cursor: pointer;
+}
+
+.mushroom-connector .point {
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    width: 12px;
+    height: 12px;
+    float: left;
+    border-radius: 6px;
+    margin-top: 16px;
+    background-color: #ffffff;
+}
+
+.mushroom-connector.connected .blockHigh {
+    position: absolute;
+    left: 0px;
+    top: 3px;
+    /* width: 70px; */
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    padding-left: 10px;
+}
+
+.mushroom-connector.connected .gas {
+    position: absolute;
+    left: 0px;
+    top: 22px;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    padding-left: 10px;
+}
+
+.mushroom-connector.connected .gas img {
+    width: 20px;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}
+
+.mushroom-connector.connected .gas span {
+    margin-left: 15px;
+}
+
+.mushroom-connector.connected .address-container {
+    position: absolute;
+    left: 90px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.mushroom-connector.connected .address {
+    font-size: 12px;
+    margin-top: 13px;
+    float: left;
+    overflow: hidden;
+}
+
+.mushroom-connector.connected .pm-icon {
+    position: absolute;
+    height: 33px;
+    width: 33px;
+    right: 3px;
+    top: 5px;
+}
+
+.mushroom-connector .icon {
+    width: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+
+.mushroom-connector .line {
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.mushroom-connector .connect-text {
+    margin-top: 11px;
+    padding-left: 12px;
+}

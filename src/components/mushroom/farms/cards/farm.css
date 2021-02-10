@@ -1,0 +1,85 @@
+.open-icon {
+    position: absolute !important;
+    top: 0px;
+    right: 0px;
+    transform: rotate(0deg);
+    transition: all 150ms !important;
+}
+
+.open-icon.open {
+    transform: rotate(180deg);
+}
+
+.card-coin {
+    position: relative;
+    padding-left: 40px;
+}
+
+.card-coin img {
+    position: absolute;
+    left: 0px;
+    top: 4px;
+    width: 30px;
+    height: auto;
+    /* height: 35px; */
+}
+
+.coin-value-input {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ff0000;
+    font-size: 20px;
+    padding: 10px;
+    color: #ff0000;
+}
+
+.card-btn {
+    width: 50%;
+    border-radius: 3px !important;
+    background-color: white;
+    color: #ff0000;
+    /* font-weight: bold !important; */
+    font-family: Bungee !important;
+}
+
+.card-btn-long {
+    width: 90%;
+}
+
+.btn-container {
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    margin: auto;
+}
+
+.max-btn {
+    cursor: pointer;
+}
+
+.card-hide-body {
+    /* transition: all 150ms !important; */
+}
+
+.card-hide-body.show {}
+
+.card-hide-body.hide {
+    /* height: 0px;
+    max-height: 0px;
+    overflow: hidden; */
+    animation: hide2 2s;
+}
+
+@keyframes hide2 {
+    from {
+        opacity: 1;
+        height: 100px;
+    }
+    20% {
+        opacity: 0;
+        height: 80%;
+    }
+    to {
+        opacity: 0;
+        height: 0px;
+    }
+}

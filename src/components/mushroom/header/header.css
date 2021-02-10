@@ -1,0 +1,94 @@
+.mushroom-header {
+    width: 100%;
+    color: red;
+    /* height: 119px; */
+    float: left;
+    display: block;
+    z-index: 1001;
+    position: relative;
+}
+
+.mushroom-header .gap {
+    width: 100%;
+    background-color: white;
+    height: 35px;
+}
+
+.mushroom-header .main {
+    width: 100%;
+    background-image: linear-gradient(to left, #e80000, #ff0000, #db0000, #c10000);
+    height: 76px;
+    margin: 0 auto;
+    padding-left: 197px;
+}
+
+.mushroom-header .title {
+    /* text-shadow: 7.6px 11.7px 5.6px rgba(4, 0, 0, 0.33); */
+    font-family: Monoton;
+    font-size: 41px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 17px;
+    display: block;
+    float: left;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.mushroom-header .title.active:after {
+    content: '';
+    height: 4px;
+    background: white;
+    display: block;
+    border-radius: 2px;
+}
+
+.mushroom-header .nav {
+    /* padding-top: 13px; */
+    margin: 17px 22px;
+    display: block;
+    float: left;
+    font-family: SemplicitaPro;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: 7px;
+    text-indent: 7px;
+    text-align: left;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.mushroom-header .nav.active:after {
+    content: '';
+    height: 4px;
+    background: white;
+    display: block;
+    margin-top: 8px;
+    border-radius: 2px;
+}
+
+.logo {
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.mushroom-circle {
+    width: 90px;
+    height: 53px;
+    /* box-shadow: 4.4px 6.7px 9.2px 0.8px rgba(4, 0, 0, 0.25); */
+    /* background-image: linear-gradient(to top, #e80000, #ff0000, #db0000, #c10000); */
+    background-image: url("/mushrooms/topleft small.png");
+    background-size: cover;
+    position: absolute;
+    left: 62px;
+    top: 0px;
+}

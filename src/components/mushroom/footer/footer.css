@@ -1,0 +1,25 @@
+.mushroom-footer {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.mushroom-footer a {
+    margin: 20px; 
+    font-size: 20px;
+    color: red;
+}
+
+.mushroom-footer img {
+    width: 23px;
+    line-height: 25px;
+    padding-bottom: 3px;
+}
+
+
+
+.mushroom-footer img.l {
+    width: 28px;
+    line-height: 25px;
+    padding-bottom: 0px;
+}

@@ -1,0 +1,34 @@
+.text-center {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.bwtb-p2 {
+    color: #f90000;
+    font-size: 20px;
+}
+
+.bwtb {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.bwtb-card img {
+    /* width: 200px; */
+    height: 50px;
+}
+
+.bwtb-card {
+    padding: 0px;
+}
+.bwtb-card a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.bwtb-card .MuiCardContent-root {
+    padding: 5px !important;
+}

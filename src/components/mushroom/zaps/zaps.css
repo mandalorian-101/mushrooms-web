@@ -1,0 +1,107 @@
+.zap-container {
+    /* height: 600px; */
+    width: 100%;
+    padding: 50px;
+}
+
+.zap-container .i-have-and-balance {
+    width: 100%;
+    position: relative;
+    height: 30px;
+}
+
+.zap-container .i-have-and-balance .i-have {
+    top: 0;
+    left: 0;
+    color: #ff0000;
+    position: absolute;
+    font-family: Bungee;
+}
+
+.zap-container .i-have-and-balance .balance {
+    right: 0;
+    bottom: 0;
+    font-family: SemplicitaPro;
+    color: #ff0000;
+    position: absolute;
+    font-weight: 600;
+
+}
+
+.zap-container .coin-select {
+    width: 100%;
+    border-radius: 6px;
+    border-color: #ff0000;
+    border-width: 2px;
+    padding: 5px;
+    color: rgba(255, 0, 0,1);
+}
+
+.zap-container .send-amount {
+    width: 100%;
+    font-family: Bungee;
+    color: #ff0000;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.zap-container .value-input {
+    width: 100%;
+    border-radius: 6px;
+    border-color: rgba(255, 0, 0,0.7);
+    border-width: 2px;
+    background-color: white;
+    padding: 5px;
+    color: #ff0000;
+}
+
+.zap-container .value-input-wrapper{ 
+    position: relative;
+}
+.zap-container .value-input-coin{
+    position: absolute;
+    right: 20px;
+    font-family: SemplicitaPro;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(255, 0, 0);
+    top: 15px;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.split-line {
+    height: 1px;
+    width: 100%;
+    background-color: #ff0000;
+}
+
+
+.zap-container .i-will-receive {
+    width: 100%;
+    font-family: Bungee;
+    color: #ff0000;
+    margin-bottom: 10px;
+
+}
+
+.zap-container .slider-wrapper{
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.option-icon{
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
+.coin-option{
+    color: rgba(255, 0, 0,1) !important;
+}
+
+.zap-container .btn-wrapper{
+    margin-top: 20px;
+}

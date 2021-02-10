@@ -1,0 +1,161 @@
+.home {
+    padding-top: 0px;
+    font-family: SemplicitaPro;
+}
+
+.intro {
+    /* text-shadow: 5.4px 8.4px 6px rgba(207, 0, 0, 0.23); */
+    font-family: SemplicitaPro;
+    font-size: 45px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: 1.23; */
+    letter-spacing: normal;
+    text-align: left;
+    color: #e40000;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.coin-icon {
+    width: 25px;
+}
+
+.coin-icon-tiny {
+    width: 24px;
+    display: initial;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.coin-price-icon {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+}
+
+.prices-table {
+    width: 100%;
+    color: #fe0d0d;
+    font-size: 22px;
+    max-height: 253px;
+    height: 253px;
+    display: block;
+}
+
+.prices-table .price-row {
+    display: block;
+    position: relative;
+    padding: 3px;
+    padding-left: 30px;
+    min-height: 37px;
+    /* height: 40px; */
+}
+
+.prices-table-carousel {
+    height: 263px;
+}
+
+.common-table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #ff4c4c;
+    border-spacing: 0px;
+    margin-top: 20px;
+    ;
+}
+
+.common-table thead th span {
+    padding: 2px 20px;
+    background-color: #ec0000;
+    color: white;
+    border-radius: 7px;
+    font-weight: 100;
+}
+
+.common-table tbody tr {
+    border-bottom: #fe0d0d solid 1px;
+}
+
+.common-table tbody td {
+    padding: 15px 20px 5px 5px;
+    font-size: 13px;
+}
+
+/* .common-table thead th {
+    border-top: #f10000 1px solid;
+    border-bottom: #f10000 1px solid;
+    padding: 9px;
+} */
+
+/* .common-table th:first-child {
+    border: #f10000 1px solid;
+    border-right: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.common-table th:last-child {
+    border: #f10000 1px solid;
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+}
+
+.common-table thead td {
+    color: #f10000;
+} */
+
+.buy-mm-btn {
+    font-size: 13px;
+    text-decoration: none;
+    background-color: #e40000;
+    color: white;
+    border-radius: 10px;
+    padding: 2px 10px;
+    font-family: Bungee;
+    position: relative;
+    bottom: 3px;
+    left: 22%;
+}
+
+.vault-tr:nth-of-type(even) {
+
+    background-image: linear-gradient(to right, #c12e26, #f5dddb) ;
+    /* background-image: ; */
+    /* background-size: 30px; */
+    /* background:url(/mushrooms/dragon-icon.png) 30px, linear-gradient(to right, #c12e26, #f5dddb) ; */
+    /* background-position: 1px; */
+    height: 20px;
+    background-repeat: no-repeat;
+    color: white !important;
+    font-weight: bold;
+}
+
+.vault-tr:nth-of-type(odd) {
+    background-image: linear-gradient(to right, #727272, #ebebeb);
+    height: 20px;
+    background-repeat: no-repeat;
+    color: #ff9700 !important;
+    font-weight: bold;
+}
+
+.vault-tr .name {
+    padding-left: 10px !important;
+}
+
+.vault-tr a {
+    color: white !important;
+}
+
+
+.vault-tr .name {
+    /* color: white !important; */
+}
+
+.vault-tr:nth-of-type(odd) a {
+    color: #ff9700 !important;
+}
