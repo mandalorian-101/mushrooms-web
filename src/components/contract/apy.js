@@ -55,7 +55,7 @@ export async function getApyRate({ name, apyConfig }) {
 }
 
 export async function getApys() {
-    let res = await fetch("https://www.curve.fi/raw-stats/apys.json");
+    let res = await fetch("https://stats.curve.fi/raw-stats/apys.json");
     return await res.json();
 }
 
