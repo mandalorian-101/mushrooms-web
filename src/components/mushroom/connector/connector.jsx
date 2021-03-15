@@ -18,9 +18,7 @@ export const injected = new InjectedConnector({
 });
 
 const POLLING_INTERVAL = 12000;
-const RPC_URLS = {
-    1: "https://mainnet.infura.io/v3/615f7d771e0c47ffb7b9574cb6562038"
-};
+const RPC_URLS = { 1: "https://eth-mainnet.alchemyapi.io/v2/iBDTL8xvgp_HyJlAVgWzYEJmqoWWSKUC" };
 
 export const walletconnect = new WalletConnectConnector({
     rpc: { 1: RPC_URLS[1] },
